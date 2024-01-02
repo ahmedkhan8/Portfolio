@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #BFE1F6;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+
+    <h1>Contact</h1>
+    <ul>
+        <li>Email: mahmed751266@gmail.com</li>
+        <li>Personal No: 03434322040</li>
+        <li>Youtube<a href="https://www.youtube.com/channel/UCAaWaqUywPKHLlm0H9z_09A">Technical Afandi</a></li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+
+    <form action="mailto:mahmed751266@gmail.com" method="post">
+        <label>Your Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Your Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Your Message:</label><br>
+        <textarea name="message" cols="30" rows="10" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
